@@ -1,0 +1,69 @@
+[
+  {
+    "label": "Gender",
+    "options": [
+      { "label": "Men", "count": 515 },
+      { "label": "Women", "count": 168 }
+    ]
+  },
+  {
+    "label": "Product type | Category",
+    "options": [
+      { "label": "Clogs", "count": 11 },
+      { "label": "Flats", "count": 21 },
+      { "label": "Flip Flops", "count": 72 },
+      { "label": "Loafers", "count": 50 },
+      { "label": "Oxfords", "count": 16 },
+      { "label": "Sandals", "count": 30 },
+      { "label": "Slides", "count": 64 },
+      { "label": "Slip On", "count": 98 },
+      { "label": "Sneakers", "count": 256 }
+    ]
+  },
+  {
+    "label": "Collections | Usage",
+    "options": [
+      { "label": "Everyday", "count": 64 },
+      { "label": "Formal", "count": 34 },
+      { "label": "Sports", "count": 52 }
+    ]
+  },
+  {
+    "label": "Size",
+    "options": [
+      { "label": "UK 6", "count": 20 },
+      { "label": "UK 7", "count": 15 },
+      { "label": "UK 8", "count": 26 }
+    ]
+  },
+  {
+    "label": "Color",
+    "options": [
+      { "label": "Black", "count": 40 },
+      { "label": "White", "count": 38 },
+      { "label": "Blue", "count": 29 }
+    ]
+  },
+  {
+    "label": "Price",
+    "options": [
+      { "label": "Under 999", "count": 10 },
+      { "label": "999-1999", "count": 44 },
+      { "label": "2000 & above", "count": 29 }
+    ]
+  },
+  {
+    "label": "Discounts",
+    "options": [
+      { "label": "10% & above", "count": 30 },
+      { "label": "30% & above", "count": 18 }
+    ]
+  },
+  {
+    "label": "Availability",
+    "options": [
+      { "label": "In stock", "count": 50 },
+      { "label": "Sold out", "count": 3 }
+    ]
+  }
+]

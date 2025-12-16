@@ -1,0 +1,202 @@
+[
+  {
+    "_id": "shoe-pexels-001",
+    "name": "Black Running Shoes",
+    "price": 2499,
+    "brand": "StrideX",
+    "description": "Durable running shoes designed for comfort and long runs.",
+    "category": "Sneakers",
+    "collection": "Mens",
+    "stock": 140,
+    "sold": 60,
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1200",
+        "public_id": "pexels-19090"
+      }
+    ],
+    "isDeleted": false,
+    "createdAt": "2025-11-29T00:00:00.000+00:00",
+    "updatedAt": "2025-11-29T00:00:00.000+00:00"
+  },
+  {
+    "_id": "shoe-pexels-002",
+    "name": "White Classic Sneakers",
+    "price": 2199,
+    "brand": "UrbanFeet",
+    "description": "Clean white sneakers suitable for everyday wear.",
+    "category": "Sneakers",
+    "collection": "Mens",
+    "stock": 100,
+    "sold": 40,
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "public_id": "pexels-2529148"
+      }
+    ],
+    "isDeleted": false,
+    "createdAt": "2025-11-29T00:00:00.000+00:00",
+    "updatedAt": "2025-11-29T00:00:00.000+00:00"
+  },
+  {
+    "_id": "shoe-pexels-003",
+    "name": "White Jogging Shoes",
+    "price": 2599,
+    "brand": "AirFlow",
+    "description": "Lightweight joggers for daily exercise.",
+    "category": "Sneakers",
+    "collection": "Mens",
+    "stock": 165,
+    "sold": 72,
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/267202/pexels-photo-267202.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "public_id": "pexels-267202"
+      }
+    ],
+    "isDeleted": false,
+    "createdAt": "2025-11-29T00:00:00.000+00:00",
+    "updatedAt": "2025-11-29T00:00:00.000+00:00"
+  },
+  {
+    "_id": "shoe-pexels-004",
+    "name": "Black Leather Loafers",
+    "price": 3299,
+    "brand": "CraftLux",
+    "description": "Premium leather loafers ideal for work and formal occasions.",
+    "category": "Loafers",
+    "collection": "Mens",
+    "stock": 90,
+    "sold": 35,
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1200",
+        "public_id": "pexels-loafer1"
+      }
+    ],
+    "isDeleted": false,
+    "createdAt": "2025-11-29T00:00:00.000+00:00",
+    "updatedAt": "2025-11-29T00:00:00.000+00:00"
+  },
+  {
+    "_id": "shoe-pexels-005",
+    "name": "Brown Hiking Boots",
+    "price": 3999,
+    "brand": "TrailMaster",
+    "description": "Rugged boots for mountain and trail adventures.",
+    "category": "Loafers",
+    "collection": "Mens",
+    "stock": 85,
+    "sold": 50,
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/694543/pexels-photo-694543.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "public_id": "pexels-694543"
+      }
+    ],
+    "isDeleted": false,
+    "createdAt": "2025-11-29T00:00:00.000+00:00",
+    "updatedAt": "2025-11-29T00:00:00.000+00:00"
+  },
+  {
+    "_id": "shoe-pexels-006",
+    "name": "Pink Kids Sneakers",
+    "price": 1599,
+    "brand": "TinySteps",
+    "description": "Soft and comfortable sneakers for kids.",
+    "category": "Sneakers",
+    "collection": "Kids",
+    "stock": 200,
+    "sold": 75,
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/2897534/pexels-photo-2897534.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "public_id": "pexels-2897534"
+      }
+    ],
+    "isDeleted": false,
+    "createdAt": "2025-11-29T00:00:00.000+00:00",
+    "updatedAt": "2025-11-29T00:00:00.000+00:00"
+  },
+  {
+    "_id": "shoe-pexels-007",
+    "name": "Blue Sports Shoes",
+    "price": 2799,
+    "brand": "ActiveFlex",
+    "description": "High-grip sports shoes for intense workouts.",
+    "category": "Sneakers",
+    "collection": "Mens",
+    "stock": 130,
+    "sold": 54,
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/1661477/pexels-photo-1661477.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "public_id": "pexels-1661477"
+      }
+    ],
+    "isDeleted": false,
+    "createdAt": "2025-11-29T00:00:00.000+00:00",
+    "updatedAt": "2025-11-29T00:00:00.000+00:00"
+  },
+  {
+    "_id": "shoe-pexels-008",
+    "name": "Elegant High Heels",
+    "price": 3499,
+    "brand": "BelleStep",
+    "description": "Stylish heels perfect for parties and events.",
+    "category": "Flats",
+    "collection": "Womens",
+    "stock": 70,
+    "sold": 28,
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/134064/pexels-photo-134064.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "public_id": "pexels-134064"
+      }
+    ],
+    "isDeleted": false,
+    "createdAt": "2025-11-29T00:00:00.000+00:00",
+    "updatedAt": "2025-11-29T00:00:00.000+00:00"
+  },
+  {
+    "_id": "shoe-pexels-009",
+    "name": "Tan Leather Sandals",
+    "price": 1999,
+    "brand": "EarthFoot",
+    "description": "Minimal leather sandals for comfort.",
+    "category": "Sandals",
+    "collection": "Womens",
+    "stock": 110,
+    "sold": 50,
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1200",
+        "public_id": "pexels-sandal1"
+      }
+    ],
+    "isDeleted": false,
+    "createdAt": "2025-11-29T00:00:00.000+00:00",
+    "updatedAt": "2025-11-29T00:00:00.000+00:00"
+  },
+  {
+    "_id": "shoe-pexels-010",
+    "name": "Grey Slip-Ons",
+    "price": 1699,
+    "brand": "ComfyWalk",
+    "description": "Easy slip-on shoes for daily commuting.",
+    "category": "Slip Ons",
+    "collection": "Mens",
+    "stock": 150,
+    "sold": 66,
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/2529158/pexels-photo-2529158.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "public_id": "pexels-2529158"
+      }
+    ],
+    "isDeleted": false,
+    "createdAt": "2025-11-29T00:00:00.000+00:00",
+    "updatedAt": "2025-11-29T00:00:00.000+00:00"
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "label": "Brand",
+    "options": [{ "label": "Neeman’s", "count": 3 }]
+  },
+  {
+    "label": "Category",
+    "options": [
+      { "label": "Walking", "count": 1 },
+      { "label": "Casual", "count": 1 },
+      { "label": "Slip Ons", "count": 1 },
+      { "label": "Clogs", "count": 11 },
+      { "label": "Flats", "count": 21 },
+      { "label": "Flip Flops", "count": 72 },
+      { "label": "Loafers", "count": 50 },
+      { "label": "Oxfords", "count": 16 },
+      { "label": "Sandals", "count": 30 },
+      { "label": "Slides", "count": 64 },
+      { "label": "Sneakers", "count": 256 }
+    ]
+  },
+  {
+    "label": "Price",
+    "options": [
+      { "label": "Under 999", "count": 0 },
+      { "label": "999-1999", "count": 1 },
+      { "label": "2000 & above", "count": 2 }
+    ]
+  },
+  {
+    "label": "Badges",
+    "options": [
+      { "label": "New", "count": 2 },
+      { "label": "Trending", "count": 0 },
+      { "label": "Best Seller", "count": 0 },
+      { "label": "Limited Edition", "count": 0 }
+    ]
+  },
+  {
+    "label": "Availability",
+    "options": [{ "label": "In stock", "count": 3 }]
+  }
+]

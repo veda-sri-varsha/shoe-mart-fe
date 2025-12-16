@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Sneakers",
+    "isActive": true,
+    "productCount": 220
+  },
+  {
+    "name": "Slip On",
+    "isActive": true,
+    "productCount": 85
+  },
+  {
+    "name": "Sandals",
+    "isActive": true,
+    "productCount": 25
+  },
+  {
+    "name": "Slides",
+    "isActive": true,
+    "productCount": 52
+  },
+  {
+    "name": "Loafers",
+    "isActive": true,
+    "productCount": 36
+  },
+  {
+    "name": "The Urban Collection",
+    "isActive": true,
+    "productCount": 12
+  },
+  {
+    "name": "Newest Products",
+    "isActive": true,
+    "productCount": 10
+  },
+  {
+    "name": "Best Selling",
+    "isActive": true,
+    "productCount": 36
+  }
+]

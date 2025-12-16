@@ -1,0 +1,34 @@
+[
+  {
+    "_id": { "$oid": "64c3f4ab12f34b56789abcde" },
+    "name": "Mens",
+    "description": "Collection of shoes and footwear for men",
+    "createdAt": { "$date": "2025-11-29T00:00:00Z" },
+    "updatedAt": { "$date": "2025-11-29T00:00:00Z" },
+    "isDeleted": false
+  },
+  {
+    "_id": { "$oid": "64c3f4ab12f34b56789abcdf" },
+    "name": "Womens",
+    "description": "Collection of shoes and footwear for women",
+    "createdAt": { "$date": "2025-11-29T00:00:00Z" },
+    "updatedAt": { "$date": "2025-11-29T00:00:00Z" },
+    "isDeleted": false
+  },
+  {
+    "_id": { "$oid": "64c3f4ab12f34b56789abcd0" },
+    "name": "Kids",
+    "description": "Collection of shoes and footwear for kids",
+    "createdAt": { "$date": "2025-11-29T00:00:00Z" },
+    "updatedAt": { "$date": "2025-11-29T00:00:00Z" },
+    "isDeleted": false
+  },
+  {
+    "_id": { "$oid": "64c3f4ab12f34b56789abcd1" },
+    "name": "Trending",
+    "description": "Trending and popular shoes collection",
+    "createdAt": { "$date": "2025-11-29T00:00:00Z" },
+    "updatedAt": { "$date": "2025-11-29T00:00:00Z" },
+    "isDeleted": false
+  }
+]
