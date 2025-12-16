@@ -1,26 +1,108 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@custom-variant dark (&:is(.dark *));
+
+html,
+body {
+  font-family: "bebas-neue-pro", "Roboto", sans-serif;
+  background: #fff;
+}
+::-webkit-scrollbar {
+  height: 8px;
+  background: #f3ede5;
+}
+::-webkit-scrollbar-thumb {
+  background: #d1c4b7;
+  border-radius: 4px;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+
+  --color-bg-dark: #1c1c1c;
+  --color-bg-light: #ffffff;
+  --color-surface-dark: #222222;
+  --color-surface-light: #f9f9f9;
+
+  --color-primary: #3a3a3a;
+  --color-primary-foreground: #ffffff;
+  --color-accent: #000;
+  --color-border: #e5e7eb;
+  --color-muted: #9ca3af;
+  --color-brand-100: #d7eaeb;
+  --color-brand-300: #7791c2;
+
+
+  --color-text-dark: #f3f4f6;
+  --color-text-light: #111827;
+
+  --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.1);
+  --shadow-strong: 0 6px 24px rgba(0, 0, 0, 0.2);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+:root {
+  --background: var(--color-bg-light);
+  --foreground: var(--color-text-light);
+  --surface: var(--color-surface-light);
+  --text: var(--color-text-light);
+  --accent: var(--color-accent);
+  --primary: var(--color-primary);
+  --primary-foreground: var(--color-primary-foreground);
+  --border-color: var(--color-border);
+  --shadow: var(--shadow-soft);
+  --radius: var(--radius-md);
+}
+
+.dark {
+  --background: var(--color-bg-dark);
+  --foreground: var(--color-text-dark);
+  --surface: var(--color-surface-dark);
+  --text: var(--color-text-dark);
+  --border-color: #333333;
+  --shadow: var(--shadow-strong);
+}
+
+@layer base {
+  * {
+    @apply border-border transition-colors duration-200;
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  body {
+    @apply bg-(--background) text-(--text) font-sans antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-(--foreground) font-semibold;
+  }
+
+  button {
+    @apply rounded-(--radius) font-medium;
+  }
+
+  input,
+  textarea,
+  select {
+    @apply bg-[var(--surface)] text-[var(--foreground)] border border-[var(--border-color)] rounded-[var(--radius)] focus:ring-2 focus:ring-[var(--accent)] focus:border-transparent;
+  }
+
+  a {
+    @apply text-[var(--accent)] hover:underline;
+  }
+
+  ::selection {
+    background-color: var(--color-accent);
+    color: var(--color-primary);
+  }
 }
