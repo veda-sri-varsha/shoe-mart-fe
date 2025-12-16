@@ -156,7 +156,7 @@ export default function NewLaunches() {
                     onClick={() => {
                       add({
                         product: {
-                          id: String(idx),
+                          _id: `temp-${idx}`,
                           name: item.title,
                           price: item.price,
                           images: [{ url: item.image }],
