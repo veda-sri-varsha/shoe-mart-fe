@@ -24,6 +24,7 @@ export type generateRazorPayOrderIdPayload = {
 };
 
 export type generateRazorPayOrderIdResponse = ApiResponse<{
+  success: boolean;
   orderId: string;
   amount: number;
   currency: string;

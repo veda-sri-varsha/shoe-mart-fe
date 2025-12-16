@@ -50,10 +50,8 @@ export const verifyPayment = async (
   return response.data;
 };
 
-export const getOrderAdmin = async (
-  id: string
-): Promise<getOrderAdminResponse> => {
-  const response = await axiosInstance.get(getOrderAdminUrl(id));
+export const getOrderAdmin = async (): Promise<getOrderAdminResponse> => {
+  const response = await axiosInstance.get(getOrderAdminUrl);
   return response.data;
 };
 
