@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import React, { useState } from "react";
@@ -59,13 +60,14 @@ export function CheckoutPage() {
         amount: cartTotal,
         currency: "INR",
       });
+      const orderData = orderRes.data ?? orderRes;
       if (!orderRes?.orderId) {
         toast.error("Unable to start payment.");
         setIsPaying(false);
         return;
       }
 
-      const { orderId, amount, currency } = orderRes;
+      const { orderId, amount, currency } = orderData;
       const options = {
         key: process.env.NEXT_PUBLIC_RAZORPAY_KEY!,
         amount,
